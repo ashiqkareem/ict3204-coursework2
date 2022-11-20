@@ -1,0 +1,145 @@
+@timestamp,event.action,event.type,file.extension,file.path
+"Oct 22, 2022 @ 21:55:49.278","updated, attributes_modified",change,cache,/etc/ld.so.cache
+"Oct 22, 2022 @ 21:55:49.275",moved,change,-,/etc/ld.so.cache~
+"Oct 22, 2022 @ 21:55:49.271",attributes_modified,change,-,/etc/ld.so.cache~
+"Oct 22, 2022 @ 21:55:49.256",created,creation,cache~,/etc/ld.so.cache~
+"Oct 22, 2022 @ 21:55:45.346","updated, attributes_modified",change,-,/etc/python3/debian_config
+"Oct 22, 2022 @ 21:55:45.279",created,creation,-,/etc/python3
+"Oct 22, 2022 @ 21:55:45.279",created,creation,-,/etc/python3/debian_config
+"Oct 22, 2022 @ 21:55:26.253",moved,change,-,/etc/mailcap.new
+"Oct 22, 2022 @ 21:55:26.253",created,creation,-,/etc/mailcap
+"Oct 22, 2022 @ 21:55:26.248",created,creation,new,/etc/mailcap.new
+"Oct 22, 2022 @ 21:55:26.142",created,creation,order,/etc/mailcap.order
+"Oct 22, 2022 @ 21:55:26.131",moved,change,-,/etc/mailcap.order.dpkg-new
+"Oct 22, 2022 @ 21:55:26.108",created,creation,types,/etc/mime.types
+"Oct 22, 2022 @ 21:55:26.107",moved,change,-,/etc/mime.types.dpkg-new
+"Oct 22, 2022 @ 21:55:26.061",moved,change,-,/etc/python3.4/sitecustomize.py.dpkg-new
+"Oct 22, 2022 @ 21:55:26.061",created,creation,py,/etc/python3.4/sitecustomize.py
+"Oct 22, 2022 @ 21:55:25.847",created,creation,mime,/etc/magic.mime
+"Oct 22, 2022 @ 21:55:25.846",moved,change,-,/etc/magic.mime.dpkg-new
+"Oct 22, 2022 @ 21:55:25.837",moved,change,-,/etc/magic.dpkg-new
+"Oct 22, 2022 @ 21:55:25.837",created,creation,-,/etc/magic
+"Oct 22, 2022 @ 21:55:21.959",created,creation,-,/usr/bin/pybuild
+"Oct 22, 2022 @ 21:55:21.942",moved,change,-,/usr/bin/pybuild.dpkg-new
+"Oct 22, 2022 @ 21:55:21.863",created,creation,-,/usr/bin/dh_pypy
+"Oct 22, 2022 @ 21:55:21.854",moved,change,-,/usr/bin/dh_pypy.dpkg-new
+"Oct 22, 2022 @ 21:55:21.850",created,creation,-,/usr/bin/dh_python3
+"Oct 22, 2022 @ 21:55:21.844",moved,change,-,/usr/bin/dh_python3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.842",attributes_modified,change,-,/usr/bin/dh_pypy.dpkg-new
+"Oct 22, 2022 @ 21:55:21.842",attributes_modified,change,-,/usr/bin/dh_pypy.dpkg-new
+"Oct 22, 2022 @ 21:55:21.834",created,creation,-,/usr/bin/dh_pypy.dpkg-new
+"Oct 22, 2022 @ 21:55:21.755",created,creation,-,/usr/bin/dh_python3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.361",created,creation,-,/usr/bin/pdb3
+"Oct 22, 2022 @ 21:55:21.358",moved,change,-,/usr/bin/pdb3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.338",moved,change,-,/usr/bin/pygettext3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.338",created,creation,-,/usr/bin/pygettext3
+"Oct 22, 2022 @ 21:55:21.336",created,creation,-,/usr/bin/pydoc3
+"Oct 22, 2022 @ 21:55:21.329",moved,change,-,/usr/bin/pydoc3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.328",attributes_modified,change,-,/usr/bin/pygettext3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.326",created,creation,-,/usr/bin/pygettext3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.326",attributes_modified,change,-,/usr/bin/pygettext3.dpkg-new
+"Oct 22, 2022 @ 21:55:21.311",created,creation,-,/usr/bin/pydoc3.dpkg-new
+"Oct 22, 2022 @ 21:55:20.838",moved,change,-,/usr/bin/py3versions.dpkg-new
+"Oct 22, 2022 @ 21:55:20.838",created,creation,-,/usr/bin/py3versions
+"Oct 22, 2022 @ 21:55:20.837",created,creation,-,/usr/bin/python3
+"Oct 22, 2022 @ 21:55:20.777",moved,change,-,/usr/bin/python3.dpkg-new
+"Oct 22, 2022 @ 21:55:20.774",moved,change,-,/usr/bin/python3m.dpkg-new
+"Oct 22, 2022 @ 21:55:20.774",created,creation,-,/usr/bin/python3m
+"Oct 22, 2022 @ 21:55:20.771",created,creation,-,/usr/bin/py3clean
+"Oct 22, 2022 @ 21:55:20.765",moved,change,-,/usr/bin/py3clean.dpkg-new
+"Oct 22, 2022 @ 21:55:20.762",moved,change,-,/usr/bin/py3compile.dpkg-new
+"Oct 22, 2022 @ 21:55:20.762",created,creation,-,/usr/bin/py3compile
+"Oct 22, 2022 @ 21:55:20.760",attributes_modified,change,-,/usr/bin/py3clean.dpkg-new
+"Oct 22, 2022 @ 21:55:20.749",attributes_modified,change,-,/usr/bin/py3clean.dpkg-new
+"Oct 22, 2022 @ 21:55:20.745",attributes_modified,change,-,/usr/bin/py3clean.dpkg-new
+"Oct 22, 2022 @ 21:55:20.740","updated, attributes_modified",change,dpkg-new,/usr/bin/py3clean.dpkg-new
+"Oct 22, 2022 @ 21:55:20.738",created,creation,dpkg-new,/usr/bin/py3clean.dpkg-new
+"Oct 22, 2022 @ 21:55:20.734",attributes_modified,change,dpkg-new,/usr/bin/py3compile.dpkg-new
+"Oct 22, 2022 @ 21:55:20.691","updated, attributes_modified",change,dpkg-new,/usr/bin/py3compile.dpkg-new
+"Oct 22, 2022 @ 21:55:20.686",created,creation,dpkg-new,/usr/bin/py3compile.dpkg-new
+"Oct 22, 2022 @ 21:55:20.535",created,creation,-,/usr/bin/pdb3.4
+"Oct 22, 2022 @ 21:55:20.489",moved,change,-,/usr/bin/pdb3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.479",moved,change,-,/usr/bin/pydoc3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.479",created,creation,4,/usr/bin/pydoc3.4
+"Oct 22, 2022 @ 21:55:20.466",created,creation,4,/usr/bin/2to3-3.4
+"Oct 22, 2022 @ 21:55:20.458",moved,change,-,/usr/bin/2to3-3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.451",created,creation,4,/usr/bin/pygettext3.4
+"Oct 22, 2022 @ 21:55:20.435",moved,change,-,/usr/bin/pygettext3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.381",attributes_modified,change,-,/usr/bin/pygettext3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.367",attributes_modified,change,dpkg-new,/usr/bin/pygettext3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.366","updated, attributes_modified",change,dpkg-new,/usr/bin/pygettext3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.358",created,creation,dpkg-new,/usr/bin/pygettext3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:20.234",moved,change,-,/usr/bin/file.dpkg-new
+"Oct 22, 2022 @ 21:55:20.234",created,creation,-,/usr/bin/file
+"Oct 22, 2022 @ 21:55:19.856",created,creation,4m,/usr/bin/python3.4m
+"Oct 22, 2022 @ 21:55:19.856",moved,change,-,/usr/bin/python3.4m.dpkg-new
+"Oct 22, 2022 @ 21:55:19.445",created,creation,4,/usr/bin/python3.4
+"Oct 22, 2022 @ 21:55:19.440",created,creation,-,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:19.440",moved,change,-,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:19.361",attributes_modified,change,-,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:19.361",created,creation,-,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:18.952","updated, attributes_modified",change,dpkg-new,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:18.254","updated, attributes_modified",change,dpkg-new,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:17.563","updated, attributes_modified",change,dpkg-new,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:17.145","updated, attributes_modified",change,dpkg-new,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:16.541","updated, attributes_modified",change,dpkg-new,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:15.756",created,creation,dpkg-new,/usr/bin/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:10.249",created,creation,-,/usr/bin/see
+"Oct 22, 2022 @ 21:55:10.243",moved,change,-,/usr/bin/see.dpkg-new
+"Oct 22, 2022 @ 21:55:10.237",moved,change,-,/usr/bin/print.dpkg-new
+"Oct 22, 2022 @ 21:55:10.237",created,creation,-,/usr/bin/print
+"Oct 22, 2022 @ 21:55:10.234",created,creation,-,/usr/bin/edit
+"Oct 22, 2022 @ 21:55:10.155",moved,change,-,/usr/bin/compose.dpkg-new
+"Oct 22, 2022 @ 21:55:10.155",created,creation,-,/usr/bin/compose
+"Oct 22, 2022 @ 21:55:10.155",moved,change,-,/usr/bin/edit.dpkg-new
+"Oct 22, 2022 @ 21:55:10.151",created,creation,-,/usr/bin/run-mailcap
+"Oct 22, 2022 @ 21:55:10.145",created,creation,-,/usr/sbin/update-mime
+"Oct 22, 2022 @ 21:55:10.145",moved,change,-,/usr/bin/run-mailcap.dpkg-new
+"Oct 22, 2022 @ 21:55:10.139",created,creation,-,/usr/bin/run-mailcap.dpkg-new
+"Oct 22, 2022 @ 21:55:10.139",moved,change,-,/usr/sbin/update-mime.dpkg-new
+"Oct 22, 2022 @ 21:55:09.938",created,creation,-,/usr/bin/run-mailcap.dpkg-new
+"Oct 22, 2022 @ 21:55:09.857",attributes_modified,change,-,/usr/sbin/update-mime.dpkg-new
+"Oct 22, 2022 @ 21:55:09.849",created,creation,dpkg-new,/usr/sbin/update-mime.dpkg-new
+"Oct 22, 2022 @ 21:55:09.738",created,creation,dpkg-new,/etc/mime.types.dpkg-new
+"Oct 22, 2022 @ 21:55:09.562",attributes_modified,change,dpkg-new,/etc/mailcap.order.dpkg-new
+"Oct 22, 2022 @ 21:55:09.560","updated, attributes_modified",change,dpkg-new,/etc/mailcap.order.dpkg-new
+"Oct 22, 2022 @ 21:55:09.554",created,creation,dpkg-new,/etc/mailcap.order.dpkg-new
+"Oct 22, 2022 @ 21:55:07.641",moved,change,-,/etc/python3.4.dpkg-new
+"Oct 22, 2022 @ 21:55:07.641",created,creation,-,/etc/python3.4
+"Oct 22, 2022 @ 21:55:07.641",created,creation,dpkg-new,/etc/python3.4/sitecustomize.py.dpkg-new
+"Oct 22, 2022 @ 21:55:06.242",created,creation,dpkg-new,/etc/magic.mime.dpkg-new
+"Oct 22, 2022 @ 21:55:06.215",created,creation,dpkg-new,/etc/magic.dpkg-new
+"Oct 22, 2022 @ 21:53:29.256",created,creation,-,/etc/cron.d/per_minute
+"Oct 22, 2022 @ 21:53:22.236",created,creation,-,/etc/alternatives/netcat.1.gz
+"Oct 22, 2022 @ 21:53:22.234",moved,change,-,/etc/alternatives/netcat.1.gz.dpkg-tmp
+"Oct 22, 2022 @ 21:53:22.159",created,creation,-,/etc/alternatives/nc.1.gz
+"Oct 22, 2022 @ 21:53:22.154",moved,change,-,/etc/alternatives/nc.1.gz.dpkg-tmp
+"Oct 22, 2022 @ 21:53:22.150",created,creation,-,/bin/netcat
+"Oct 22, 2022 @ 21:53:22.147",moved,change,-,/bin/netcat.dpkg-tmp
+"Oct 22, 2022 @ 21:53:22.146",created,creation,-,/etc/alternatives/netcat
+"Oct 22, 2022 @ 21:53:22.137",moved,change,-,/etc/alternatives/netcat.dpkg-tmp
+"Oct 22, 2022 @ 21:53:22.134",created,creation,-,/bin/nc
+"Oct 22, 2022 @ 21:53:22.060",moved,change,-,/bin/nc.dpkg-tmp
+"Oct 22, 2022 @ 21:53:22.040",moved,change,-,/etc/alternatives/nc.dpkg-tmp
+"Oct 22, 2022 @ 21:53:22.040",created,creation,-,/etc/alternatives/nc
+"Oct 22, 2022 @ 21:53:21.993",created,creation,-,/etc/alternatives/netcat.1.gz.dpkg-tmp
+"Oct 22, 2022 @ 21:53:21.968",created,creation,-,/etc/alternatives/nc.1.gz.dpkg-tmp
+"Oct 22, 2022 @ 21:53:21.877",created,creation,-,/bin/netcat.dpkg-tmp
+"Oct 22, 2022 @ 21:53:21.866",created,creation,-,/etc/alternatives/nc.dpkg-tmp
+"Oct 22, 2022 @ 21:53:21.866",created,creation,-,/bin/nc.dpkg-tmp
+"Oct 22, 2022 @ 21:53:21.866",created,creation,-,/etc/alternatives/netcat.dpkg-tmp
+"Oct 22, 2022 @ 21:53:17.559",created,creation,traditional,/bin/nc.traditional
+"Oct 22, 2022 @ 21:53:17.557",moved,change,-,/bin/nc.traditional.dpkg-new
+"Oct 22, 2022 @ 21:53:17.170",created,creation,dpkg-new,/bin/nc.traditional.dpkg-new
+"Oct 22, 2022 @ 21:51:42.477","updated, attributes_modified",change,-,/etc/passwd
+"Oct 22, 2022 @ 21:51:42.380","updated, attributes_modified",change,-,/etc/passwd
+"Oct 22, 2022 @ 21:51:42.287",attributes_modified,change,-,/home/alici/temp
+"Oct 22, 2022 @ 21:51:42.262",created,creation,-,/home/alici/temp
+"Oct 22, 2022 @ 21:51:42.136",attributes_modified,change,sh,/home/alici/persistence-tomcat.sh
+"Oct 22, 2022 @ 21:51:42.119",attributes_modified,change,sh,/home/alici/privilege-esc.sh
+"Oct 22, 2022 @ 21:51:42.112","updated, attributes_modified",change,sh,/home/alici/privilege-esc.sh
+"Oct 22, 2022 @ 21:51:41.999",created,creation,sh,/home/alici/privilege-esc.sh
+"Oct 22, 2022 @ 21:51:41.865","updated, attributes_modified",change,sh,/home/alici/persistence-tomcat.sh
+"Oct 22, 2022 @ 21:51:41.797",created,creation,sh,/home/alici/persistence-tomcat.sh
+"Oct 22, 2022 @ 21:51:41.340",attributes_modified,change,sh,/home/alici/pers-priv.sh
+"Oct 22, 2022 @ 21:51:41.234",created,creation,sh,/home/alici/pers-priv.sh

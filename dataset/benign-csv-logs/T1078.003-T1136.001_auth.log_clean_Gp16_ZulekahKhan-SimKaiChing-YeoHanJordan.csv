@@ -1,0 +1,666 @@
+"@timestamp","log.file.path","syslog_hostname","syslog_message","syslog_program"
+"Oct 22, 2022 @ 15:52:23.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 60484:11: disconnected by user",sshd
+"Oct 22, 2022 @ 15:52:23.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 60484",sshd
+"Oct 22, 2022 @ 15:52:23.000","/var/log/auth.log",c2be3c5be205,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 15:52:23.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 15:36:26.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:36:26.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:36:26.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:36:26.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /usr/bin/service.sh",sudo
+"Oct 22, 2022 @ 15:36:26.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:36:06.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /etc/init.d/initservice.sh",sudo
+"Oct 22, 2022 @ 15:36:06.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:36:06.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:36:06.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:36:06.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:35:41.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:35:41.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:35:41.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /etc/passwd",sudo
+"Oct 22, 2022 @ 15:35:41.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:35:41.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:34:40.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:34:40.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:34:40.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:34:40.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/head /var/log/auth.log",sudo
+"Oct 22, 2022 @ 15:34:40.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:33:58.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:33:58.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:33:58.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:33:58.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/head /var/log/auth.log",sudo
+"Oct 22, 2022 @ 15:33:58.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:33:00.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:33:00.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:33:00.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /etc/passwd",sudo
+"Oct 22, 2022 @ 15:33:00.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:33:00.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/touch -a -m -d 4 months ago 24 minutes ago /etc/passwd",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/touch -a -m -d 1 year ago 2 months ago 2 days ago 48 minutes ago 10 seconds ago /etc/init.d/initservice.sh",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/touch -a -m -d 1 year ago 2 months ago 1 day ago 10 minutes ago 50 seconds ago /usr/bin/service.sh",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:32:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:32:44.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 15:32:44.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 15:32:44.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat stop",sudo
+"Oct 22, 2022 @ 15:32:44.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:32:44.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:32:38.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)",sshd
+"Oct 22, 2022 @ 15:32:38.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 15:32:38.000","/var/log/auth.log",c2be3c5be205,"Accepted publickey for vagrant from 172.17.0.1 port 50094 ssh2: RSA SHA256:lsbtRYvA/onbvAri5DkY2aQ9kixlS+nRF15xrkmDvt4",sshd
+"Oct 22, 2022 @ 15:32:38.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 15:32:14.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:32:14.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /usr/bin/service.sh",sudo
+"Oct 22, 2022 @ 15:32:14.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:32:14.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:32:14.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:31:08.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:31:08.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:31:08.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:31:08.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /etc/init.d/initservice.sh",sudo
+"Oct 22, 2022 @ 15:31:08.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:30:01.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/stat /etc/passwd",sudo
+"Oct 22, 2022 @ 15:30:01.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:30:01.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:30:01.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:30:01.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:29:43.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/head /var/log/auth.log",sudo
+"Oct 22, 2022 @ 15:29:43.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:29:43.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:29:43.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:29:43.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:25:37.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log",sudo
+"Oct 22, 2022 @ 15:25:37.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:25:37.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:25:37.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:25:37.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:23:42.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:23:42.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:23:42.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/cat cleanup.sh",sudo
+"Oct 22, 2022 @ 15:23:42.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:23:42.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:22:59.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:22:51.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim cleanup.sh",sudo
+"Oct 22, 2022 @ 15:22:51.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:22:51.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:22:51.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:21:38.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:26.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim cleanup.sh",sudo
+"Oct 22, 2022 @ 15:21:26.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:26.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:21:26.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/cat /dev/null",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/rm /home/adam/run.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/rm /home/adam/initservice.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/rm /home/adam/modify.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/touch -a -m -d 4 months ago 24 minutes ago /etc/passwd",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/touch -a -m -d 1 year ago 2 months ago 2 days ago 48 minutes ago 10 seconds ago /etc/init.d/initservice.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=./cleanup.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/cat /dev/null",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/rm /home/adam/service.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/rm /home/adam/exfil.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/rm /home/adam/exfiltrated.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/touch -a -m -d 1 year ago 2 months ago 1 day ago 10 minutes ago 50 seconds ago /usr/bin/service.sh",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:21:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:20:10.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/chmod 777 cleanup.sh",sudo
+"Oct 22, 2022 @ 15:20:10.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:20:10.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:20:10.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:20:10.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:19:48.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 60484 ssh2",sshd
+"Oct 22, 2022 @ 15:19:48.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 15:19:48.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 15:19:48.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 15:19:00.000","/var/log/auth.log",c2be3c5be205,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 15:19:00.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 172.17.0.1 port 52822:11: disconnected by user",sshd
+"Oct 22, 2022 @ 15:19:00.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user vagrant 172.17.0.1 port 52822",sshd
+"Oct 22, 2022 @ 15:19:00.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user vagrant",sshd
+"Oct 22, 2022 @ 15:18:54.000","/var/log/auth.log",c2be3c5be205,"pam_unix(runuser:session): session closed for user root",runuser
+"Oct 22, 2022 @ 15:18:54.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:18:48.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 15:18:48.000","/var/log/auth.log",c2be3c5be205,"pam_unix(runuser:session): session opened for user root(uid=0) by (uid=0)",runuser
+"Oct 22, 2022 @ 15:18:48.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat start",sudo
+"Oct 22, 2022 @ 15:18:48.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 15:18:48.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:18:48.000","/var/log/auth.log",c2be3c5be205,"pam_limits(runuser:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",runuser
+"Oct 22, 2022 @ 15:18:42.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:14:58.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/auditbeat/auditbeat.yml",sudo
+"Oct 22, 2022 @ 15:14:58.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:14:58.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 15:14:58.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 15:14:47.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:14:47.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat status",sudo
+"Oct 22, 2022 @ 15:14:47.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 15:14:47.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 15:14:47.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:13:57.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 54120:11: disconnected by user",sshd
+"Oct 22, 2022 @ 15:13:57.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 15:13:57.000","/var/log/auth.log",c2be3c5be205,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 15:13:57.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 54120",sshd
+"Oct 22, 2022 @ 15:13:19.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 54120 ssh2",sshd
+"Oct 22, 2022 @ 15:13:19.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 15:13:19.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 15:13:19.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 15:11:22.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 59300:11: disconnected by user",sshd
+"Oct 22, 2022 @ 15:11:22.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 15:11:22.000","/var/log/auth.log",c2be3c5be205,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 15:11:22.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 59300",sshd
+"Oct 22, 2022 @ 15:10:33.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service packetbeat stop",sudo
+"Oct 22, 2022 @ 15:10:33.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 15:10:33.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:10:33.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 15:10:33.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:10:14.000","/var/log/auth.log",c2be3c5be205,"Accepted publickey for vagrant from 172.17.0.1 port 52822 ssh2: RSA SHA256:lsbtRYvA/onbvAri5DkY2aQ9kixlS+nRF15xrkmDvt4",sshd
+"Oct 22, 2022 @ 15:10:14.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 15:10:14.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)",sshd
+"Oct 22, 2022 @ 15:10:14.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/mysql",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/mysql",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:01:32.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 15:01:31.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/mysql",sudo
+"Oct 22, 2022 @ 15:01:31.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 15:01:31.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 15:01:31.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 15:00:20.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 172.17.0.1 port 52560:11: disconnected by user",sshd
+"Oct 22, 2022 @ 15:00:20.000","/var/log/auth.log",c2be3c5be205,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 15:00:20.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user vagrant",sshd
+"Oct 22, 2022 @ 15:00:20.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user vagrant 172.17.0.1 port 52560",sshd
+"Oct 22, 2022 @ 14:45:01.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:45:01.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/dd of=exfiltrated.sql",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/mysqldump users",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:45:00.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:44:48.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:44:48.000","/var/log/auth.log",c2be3c5be205,"pam_unix(runuser:session): session closed for user root",runuser
+"Oct 22, 2022 @ 14:44:45.000","/var/log/auth.log",c2be3c5be205,"pam_unix(runuser:session): session opened for user root(uid=0) by (uid=0)",runuser
+"Oct 22, 2022 @ 14:44:45.000","/var/log/auth.log",c2be3c5be205,"pam_limits(runuser:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",runuser
+"Oct 22, 2022 @ 14:44:44.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service packetbeat start",sudo
+"Oct 22, 2022 @ 14:44:44.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 14:44:44.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 14:44:44.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:43:53.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:43:36.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 14:43:36.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 14:43:36.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/packetbeat setup -e",sudo
+"Oct 22, 2022 @ 14:43:36.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:43:28.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 14:43:28.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 14:43:28.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:43:28.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat stop",sudo
+"Oct 22, 2022 @ 14:43:28.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:42:37.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/cat exfil.sh",sudo
+"Oct 22, 2022 @ 14:42:37.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:42:37.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:42:37.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:42:37.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:30:22.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:30:22.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/sbin/service initservice.sh",sudo
+"Oct 22, 2022 @ 14:30:22.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:30:22.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:30:22.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:30:19.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/ls /usr/bin/",sudo
+"Oct 22, 2022 @ 14:30:19.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:30:19.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:30:19.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:30:19.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:30:16.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/ls /etc/init.d/",sudo
+"Oct 22, 2022 @ 14:30:16.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:30:16.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:30:16.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:30:16.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:30:13.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/ls /etc/rc3.d/",sudo
+"Oct 22, 2022 @ 14:30:13.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:30:13.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:30:13.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:30:13.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:29:50.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:29:50.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:29:50.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/sbin/service initservice.sh",sudo
+"Oct 22, 2022 @ 14:29:50.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:29:50.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:29:47.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:29:44.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim run.sh",sudo
+"Oct 22, 2022 @ 14:29:44.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:29:44.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:29:44.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:29:29.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/sbin/service initservice",sudo
+"Oct 22, 2022 @ 14:29:29.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:29:29.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:29:29.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:29:29.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:27:21.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:27:21.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/ls /usr/bin/",sudo
+"Oct 22, 2022 @ 14:27:21.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:27:21.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:27:21.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:27:03.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:27:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:27:03.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/ls /etc/init.d/",sudo
+"Oct 22, 2022 @ 14:27:03.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:27:03.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:26:52.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:26:52.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:26:52.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/ls /etc/rc3.d/",sudo
+"Oct 22, 2022 @ 14:26:52.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:26:52.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"    root : TTY=pts/2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/service.sh",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=./run.sh",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"new group: name=rootusr, GID=1002",useradd
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"new user: name=rootusr, UID=1002, GID=1002, home=/home/rootusr, shell=/bin/sh, from=/dev/pts/3",useradd
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_unix(chpasswd:chauthtok): password changed for rootusr",chpasswd
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"add 'rootusr' to group 'sudo'",usermod
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"add 'rootusr' to shadow group 'sudo'",usermod
+"Oct 22, 2022 @ 14:24:09.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:23:55.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 59300 ssh2",sshd
+"Oct 22, 2022 @ 14:23:55.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:23:55.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:55.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 50396 ssh2",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 50396:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:23:36.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 50396",sshd
+"Oct 22, 2022 @ 14:23:35.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 38120:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:23:35.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 38120",sshd
+"Oct 22, 2022 @ 14:23:35.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 14:23:34.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 38120 ssh2",sshd
+"Oct 22, 2022 @ 14:23:34.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:23:34.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:34.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 38110 ssh2",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 38110:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:23:33.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 38110",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 38096",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 38096 ssh2",sshd
+"Oct 22, 2022 @ 14:23:28.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 38096:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"Accepted password for adam from 192.168.0.4 port 38084 ssh2",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"Received disconnect from 192.168.0.4 port 38084:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:23:27.000","/var/log/auth.log",c2be3c5be205,"Disconnected from user adam 192.168.0.4 port 38084",sshd
+"Oct 22, 2022 @ 14:23:05.000","/var/log/auth.log",c2be3c5be205,"pam_unix(runuser:session): session closed for user root",runuser
+"Oct 22, 2022 @ 14:23:05.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:23:01.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat start",sudo
+"Oct 22, 2022 @ 14:23:01.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:23:01.000","/var/log/auth.log",c2be3c5be205,"pam_limits(runuser:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",runuser
+"Oct 22, 2022 @ 14:23:01.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 14:23:01.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 14:23:01.000","/var/log/auth.log",c2be3c5be205,"pam_unix(runuser:session): session opened for user root(uid=0) by (uid=0)",runuser
+"Oct 22, 2022 @ 14:22:56.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:22:41.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/auditbeat setup -e",sudo
+"Oct 22, 2022 @ 14:22:41.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:22:41.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 14:22:41.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 14:22:05.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 14:21:56.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 14:21:56.000","/var/log/auth.log",c2be3c5be205," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/auditbeat/auditbeat.yml",sudo
+"Oct 22, 2022 @ 14:21:56.000","/var/log/auth.log",c2be3c5be205,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 14:21:56.000","/var/log/auth.log",c2be3c5be205,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 14:21:37.000","/var/log/auth.log",c2be3c5be205,"Accepted publickey for vagrant from 172.17.0.1 port 52560 ssh2: RSA SHA256:lsbtRYvA/onbvAri5DkY2aQ9kixlS+nRF15xrkmDvt4",sshd
+"Oct 22, 2022 @ 14:21:37.000","/var/log/auth.log",c2be3c5be205,"pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)",sshd
+"Oct 22, 2022 @ 14:21:37.000","/var/log/auth.log",c2be3c5be205,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 14:21:37.000","/var/log/auth.log",c2be3c5be205,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 14:21:36.000","/var/log/auth.log",c2be3c5be205,"Server listening on 0.0.0.0 port 22.",sshd
+"Oct 22, 2022 @ 14:21:36.000","/var/log/auth.log",c2be3c5be205,"Server listening on :: port 22.",sshd
+"Oct 22, 2022 @ 14:16:21.000","/var/log/auth.log",6d29bb3e3d3e,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 14:16:21.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 172.17.0.1 port 48562:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:16:21.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user vagrant 172.17.0.1 port 48562",sshd
+"Oct 22, 2022 @ 14:16:21.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user vagrant",sshd
+"Oct 22, 2022 @ 14:13:43.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 14:13:42.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 192.168.0.4 port 46026:11: disconnected by user",sshd
+"Oct 22, 2022 @ 14:13:42.000","/var/log/auth.log",6d29bb3e3d3e,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 14:13:42.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user adam 192.168.0.4 port 46026",sshd
+"Oct 22, 2022 @ 13:49:54.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:49:54.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:49:54.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:49:54.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:49:54.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/cat initservice.sh",sudo
+"Oct 22, 2022 @ 13:49:23.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:49:15.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim run.sh",sudo
+"Oct 22, 2022 @ 13:49:15.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:49:15.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:49:15.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:48:52.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:48:52.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:48:52.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd",sudo
+"Oct 22, 2022 @ 13:48:52.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:48:52.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"add 'rootusr' to shadow group 'sudo'",usermod
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/service initservice.sh start",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"    root : TTY=pts/2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/service.sh",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)",sudo
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"new group: name=rootusr, GID=1002",useradd
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"new user: name=rootusr, UID=1002, GID=1002, home=/home/rootusr, shell=/bin/sh, from=/dev/pts/3",useradd
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(chpasswd:chauthtok): password changed for rootusr",chpasswd
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"add 'rootusr' to group 'sudo'",usermod
+"Oct 22, 2022 @ 13:41:33.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:41:19.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:41:16.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim run.sh",sudo
+"Oct 22, 2022 @ 13:41:16.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:41:16.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:41:16.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:41:10.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:41:07.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim run.sh",sudo
+"Oct 22, 2022 @ 13:41:07.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:41:07.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:41:07.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:36:27.000","/var/log/auth.log",6d29bb3e3d3e,"    adam : TTY=pts/1 ; PWD=/home/adam ; USER=root ; COMMAND=./run.sh",sudo
+"Oct 22, 2022 @ 13:36:27.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:36:27.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:36:27.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:36:27.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:36:09.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:36:05.000","/var/log/auth.log",6d29bb3e3d3e," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /home/adam/run.sh",sudo
+"Oct 22, 2022 @ 13:36:05.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:36:05.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:36:05.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:34:02.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:34:02.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted password for adam from 192.168.0.4 port 46026 ssh2",sshd
+"Oct 22, 2022 @ 13:34:02.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:34:02.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted password for adam from 192.168.0.4 port 52612 ssh2",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 192.168.0.4 port 52612:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user adam 192.168.0.4 port 52612",sshd
+"Oct 22, 2022 @ 13:32:46.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted password for adam from 192.168.0.4 port 52606 ssh2",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 192.168.0.4 port 52606:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user adam 192.168.0.4 port 52606",sshd
+"Oct 22, 2022 @ 13:32:45.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted password for adam from 192.168.0.4 port 54490 ssh2",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user adam 192.168.0.4 port 54490",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 192.168.0.4 port 54490:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:32:44.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user adam 192.168.0.4 port 54478",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted password for adam from 192.168.0.4 port 54478 ssh2",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:43.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 192.168.0.4 port 54478:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted password for adam from 192.168.0.4 port 54472 ssh2",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"Received disconnect from 192.168.0.4 port 54472:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:32:41.000","/var/log/auth.log",6d29bb3e3d3e,"Disconnected from user adam 192.168.0.4 port 54472",sshd
+"Oct 22, 2022 @ 13:32:21.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(runuser:session): session closed for user root",runuser
+"Oct 22, 2022 @ 13:32:21.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:32:18.000","/var/log/auth.log",6d29bb3e3d3e," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat start",sudo
+"Oct 22, 2022 @ 13:32:18.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:32:18.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:32:18.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:32:18.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(runuser:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0",runuser
+"Oct 22, 2022 @ 13:32:18.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(runuser:session): session opened for user root(uid=0) by (uid=0)",runuser
+"Oct 22, 2022 @ 13:31:56.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:31:41.000","/var/log/auth.log",6d29bb3e3d3e," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/auditbeat setup -e",sudo
+"Oct 22, 2022 @ 13:31:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:31:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:31:41.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:31:37.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:31:37.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:31:37.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:31:37.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:31:37.000","/var/log/auth.log",6d29bb3e3d3e," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat stop",sudo
+"Oct 22, 2022 @ 13:31:31.000","/var/log/auth.log",6d29bb3e3d3e," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service packetbeat stop",sudo
+"Oct 22, 2022 @ 13:31:31.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:31:31.000","/var/log/auth.log",6d29bb3e3d3e,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:31:31.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:31:31.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:31:15.000","/var/log/auth.log",6d29bb3e3d3e,"Accepted publickey for vagrant from 172.17.0.1 port 48562 ssh2: RSA SHA256:lsbtRYvA/onbvAri5DkY2aQ9kixlS+nRF15xrkmDvt4",sshd
+"Oct 22, 2022 @ 13:31:15.000","/var/log/auth.log",6d29bb3e3d3e,"pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:31:15.000","/var/log/auth.log",6d29bb3e3d3e,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:31:15.000","/var/log/auth.log",6d29bb3e3d3e,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:30:53.000","/var/log/auth.log",6d29bb3e3d3e,"Server listening on 0.0.0.0 port 22.",sshd
+"Oct 22, 2022 @ 13:30:53.000","/var/log/auth.log",6d29bb3e3d3e,"Server listening on :: port 22.",sshd
+"Oct 22, 2022 @ 13:29:09.000","/var/log/auth.log",1b5189ce427c,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 13:29:09.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user adam 192.168.0.4 port 33408",sshd
+"Oct 22, 2022 @ 13:29:09.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 192.168.0.4 port 33408:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:29:09.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:28:19.000","/var/log/auth.log",1b5189ce427c,"    adam : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=./run.sh",sudo
+"Oct 22, 2022 @ 13:28:19.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1001,euid=0",sudo
+"Oct 22, 2022 @ 13:28:19.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:28:19.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)",sudo
+"Oct 22, 2022 @ 13:28:19.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:27:52.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:27:52.000","/var/log/auth.log",1b5189ce427c,"Accepted password for adam from 192.168.0.4 port 33408 ssh2",sshd
+"Oct 22, 2022 @ 13:27:52.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:27:52.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:27:33.000","/var/log/auth.log",1b5189ce427c,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 22, 2022 @ 13:27:33.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 172.17.0.1 port 41754:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:27:33.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user vagrant 172.17.0.1 port 41754",sshd
+"Oct 22, 2022 @ 13:27:33.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user vagrant",sshd
+"Oct 22, 2022 @ 13:27:15.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:27:09.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/vim run.sh",sudo
+"Oct 22, 2022 @ 13:27:09.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:27:09.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:27:09.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"Accepted password for adam from 192.168.0.4 port 58582 ssh2",sshd
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 192.168.0.4 port 58582:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:26:46.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user adam 192.168.0.4 port 58582",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 192.168.0.4 port 43306:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user adam 192.168.0.4 port 43306",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"Accepted password for adam from 192.168.0.4 port 43306 ssh2",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:44.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"Accepted password for adam from 192.168.0.4 port 43304 ssh2",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 192.168.0.4 port 43304:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:26:43.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user adam 192.168.0.4 port 43304",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"Accepted password for adam from 192.168.0.4 port 33498 ssh2",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 192.168.0.4 port 33498:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user adam 192.168.0.4 port 33498",sshd
+"Oct 22, 2022 @ 13:26:41.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"Accepted password for adam from 192.168.0.4 port 55556 ssh2",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"Received disconnect from 192.168.0.4 port 55556:11: disconnected by user",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"Disconnected from user adam 192.168.0.4 port 55556",sshd
+"Oct 22, 2022 @ 13:25:14.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 22, 2022 @ 13:23:55.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:23:39.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/auditbeat setup -e",sudo
+"Oct 22, 2022 @ 13:23:39.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:23:39.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:23:39.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:22:05.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:22:01.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/auditbeat setup -e",sudo
+"Oct 22, 2022 @ 13:22:01.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:22:01.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:22:01.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:17:55.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat stop",sudo
+"Oct 22, 2022 @ 13:17:55.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:17:55.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:17:55.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:17:55.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:17:52.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service auditbeat status",sudo
+"Oct 22, 2022 @ 13:17:52.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:17:52.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:17:52.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:17:52.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:17:44.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:17:44.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:17:44.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:17:44.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service metricbeat stop",sudo
+"Oct 22, 2022 @ 13:17:44.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:17:30.000","/var/log/auth.log",1b5189ce427c," vagrant : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service packetbeat stop",sudo
+"Oct 22, 2022 @ 13:17:30.000","/var/log/auth.log",1b5189ce427c,"pam_limits(sudo:session): Could not set limit for 'core' to soft=-1, hard=-1: Operation not permitted; uid=1000,euid=0",sudo
+"Oct 22, 2022 @ 13:17:30.000","/var/log/auth.log",1b5189ce427c,"pam_env(sudo:session): Unable to open env file: /etc/default/locale: No such file or directory",sudo
+"Oct 22, 2022 @ 13:17:30.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session closed for user root",sudo
+"Oct 22, 2022 @ 13:17:30.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)",sudo
+"Oct 22, 2022 @ 13:17:19.000","/var/log/auth.log",1b5189ce427c,"Accepted publickey for vagrant from 172.17.0.1 port 41754 ssh2: RSA SHA256:lsbtRYvA/onbvAri5DkY2aQ9kixlS+nRF15xrkmDvt4",sshd
+"Oct 22, 2022 @ 13:17:19.000","/var/log/auth.log",1b5189ce427c,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 22, 2022 @ 13:17:19.000","/var/log/auth.log",1b5189ce427c,"pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)",sshd
+"Oct 22, 2022 @ 13:17:19.000","/var/log/auth.log",1b5189ce427c,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 22, 2022 @ 13:16:51.000","/var/log/auth.log",1b5189ce427c,"Server listening on 0.0.0.0 port 22.",sshd
+"Oct 22, 2022 @ 13:16:51.000","/var/log/auth.log",1b5189ce427c,"Server listening on :: port 22.",sshd
+"Oct 21, 2022 @ 22:33:47.000","/var/log/auth.log",3ae11cbce778,"Received disconnect from 172.17.0.1 port 39558:11: disconnected by user",sshd
+"Oct 21, 2022 @ 22:33:47.000","/var/log/auth.log",3ae11cbce778,"syslogin_perform_logout: logout() returned an error",sshd
+"Oct 21, 2022 @ 22:33:47.000","/var/log/auth.log",3ae11cbce778,"Disconnected from user vagrant 172.17.0.1 port 39558",sshd
+"Oct 21, 2022 @ 22:33:47.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:session): session closed for user vagrant",sshd
+"Oct 21, 2022 @ 22:30:30.000","/var/log/auth.log",3ae11cbce778,"Accepted password for adam from 192.168.0.4 port 41934 ssh2",sshd
+"Oct 21, 2022 @ 22:30:30.000","/var/log/auth.log",3ae11cbce778,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 21, 2022 @ 22:30:30.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 21, 2022 @ 22:30:30.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 41928 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:30.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 21, 2022 @ 22:30:30.000","/var/log/auth.log",3ae11cbce778,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 21, 2022 @ 22:30:29.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 41928 ssh2",sshd
+"Oct 21, 2022 @ 22:30:27.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:27.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 41920 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:26.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 41920 ssh2",sshd
+"Oct 21, 2022 @ 22:30:24.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:24.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 41912 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:23.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 41912 ssh2",sshd
+"Oct 21, 2022 @ 22:30:20.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 59620 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:20.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:19.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 59620 ssh2",sshd
+"Oct 21, 2022 @ 22:30:17.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 59608 ssh2",sshd
+"Oct 21, 2022 @ 22:30:17.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:17.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 59608 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:14.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 59606 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:14.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:13.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 59606 ssh2",sshd
+"Oct 21, 2022 @ 22:30:11.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 42428 ssh2",sshd
+"Oct 21, 2022 @ 22:30:11.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:11.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 42428 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:08.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 42422 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:08.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:07.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 42422 ssh2",sshd
+"Oct 21, 2022 @ 22:30:05.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:05.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 42410 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:04.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 42410 ssh2",sshd
+"Oct 21, 2022 @ 22:30:02.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:30:02.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 55266 [preauth]",sshd
+"Oct 21, 2022 @ 22:30:00.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 55266 ssh2",sshd
+"Oct 21, 2022 @ 22:29:59.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:29:58.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 55260 ssh2",sshd
+"Oct 21, 2022 @ 22:29:58.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 55260 [preauth]",sshd
+"Oct 21, 2022 @ 22:29:55.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:29:55.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 55254 [preauth]",sshd
+"Oct 21, 2022 @ 22:29:54.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 55254 ssh2",sshd
+"Oct 21, 2022 @ 22:29:52.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:27:44.000","/var/log/auth.log",3ae11cbce778,"Accepted password for adam from 192.168.0.4 port 44328 ssh2",sshd
+"Oct 21, 2022 @ 22:27:44.000","/var/log/auth.log",3ae11cbce778,"pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory",sshd
+"Oct 21, 2022 @ 22:27:44.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:session): session closed for user adam",sshd
+"Oct 21, 2022 @ 22:27:44.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:session): session opened for user adam(uid=1001) by (uid=0)",sshd
+"Oct 21, 2022 @ 22:27:44.000","/var/log/auth.log",3ae11cbce778,"pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory",sshd
+"Oct 21, 2022 @ 22:27:43.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 44322 [preauth]",sshd
+"Oct 21, 2022 @ 22:27:42.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 44322 ssh2",sshd
+"Oct 21, 2022 @ 22:27:40.000","/var/log/auth.log",3ae11cbce778,"Connection closed by authenticating user adam 192.168.0.4 port 49434 [preauth]",sshd
+"Oct 21, 2022 @ 22:27:40.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
+"Oct 21, 2022 @ 22:27:39.000","/var/log/auth.log",3ae11cbce778,"Failed password for adam from 192.168.0.4 port 49434 ssh2",sshd
+"Oct 21, 2022 @ 22:27:37.000","/var/log/auth.log",3ae11cbce778,"pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.4  user=adam",sshd
