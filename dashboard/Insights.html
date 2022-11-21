@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<title>3204 Dashboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Google Icons-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity=
+              "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--jQuery-->
+        <script defer
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous">
+        </script>
+		
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="">3204 Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Data Analysis
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="KNN.html">K-Nearest Neighbour (KNN) Algorithm</a></li>
+			<li><a class="dropdown-item" href="DT.html">Decision Tree (DT) Algorithm</a></li>
+			<li><a class="dropdown-item" href="SVM.html">Support Vector Machine (SVM) Algorithm</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Insights.html">Results & Insights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://github.com/ashiqkareem/ict3204-coursework2">Github</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Developed By SIT ICT3204 Group 4
+      </span>
+    </div>
+  </div>
+</nav>
+<br>
+
+        <!--Bootstrap JS-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+		<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    </head>
+	
+	<style> 
+	#paddingDiv{ padding-top: 1%; padding-right: 1%; padding-bottom: 1%; padding-left: 1%; } 
+	
+	/* Content of modal div is center aligned */
+    .modal {
+    text-align: center;
+    }
+	</style>
+	
+	<div id="paddingDiv">
+	
+	<body>	    
+
+<!-- Header -->
+<h1>Results & Insights</h1>
+<hr style="height:3px;border:none;color:#333;background-color:#333;" />
+<br>
+
+<!-- Sub Header -->
+<h3>Performance of all tested Models</h3>
+<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+<br>
+
+<!-- Table -->
+<div class="container-sm border p-2 mb-2 rounded-3">		
+<table class="table">
+  <thead class="thead-dark" align="center">
+	  <th colspan="2">Performance Of All Tested Models</th>
+  </thead>
+  <thead>
+    <tr>
+	  <th>Model</th>
+	  <th>Scores</th>
+	</tr>
+  </thead>
+  <tbody>
+
+    <tr>
+    <th scope="row" rowspan="3">K-Nearest Neighbour Algorithm</th>
+      <td>Accuracy: 98.51%</td>
+    </tr>
+    <tr>
+	  <td>Precision: 70.63%</td>
+    </tr>
+    <tr>
+	  <td>Recall: 18.08%</td>
+    </tr>
+
+    <tr>
+    <th scope="row" rowspan="3">Decision Tree Algorithm</th>
+      <td>Accuracy: 99.27%</td>
+    </tr>
+    <tr>
+	  <td>Precision: 56.80%</td>
+    </tr>
+    <tr>
+	  <td>Recall: 100.00%</td>
+    </tr>
+	
+    <tr>
+    <th scope="row" rowspan="3">Support Vector Machine Algorithm</th>
+      <td>Accuracy: 98.61%</td>
+    </tr>
+    <tr>
+	  <td>Precision: 16.64%</td>
+    </tr>
+    <tr>
+	  <td>Recall: 100.00%</td>
+    </tr>
+	
+
+
+  </tbody>
+</table>	
+</div>
+<br>	
+
+<!-- Sub Header -->
+<h3>Identifying Important Features</h3>
+<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+<br>
+
+<!-- Graph -->
+<div class="container-sm border p-2 mb-2 rounded-3">
+<div id="Container" style="height: 500px; "></div>
+</div>
+
+<script>
+var chart = new CanvasJS.Chart("Container",{
+    title :{
+        text: "Visualizing Important Features"
+    },
+	axisX:{
+		title: "Features"
+	},
+	axisY:{
+		title: "Feature Importance Score"
+	},
+    data: [{
+	type: "bar",
+	toolTipContent: "K Value: {x} <br> Accuracy Rate: {y}",
+    dataPoints : [
+		{ "label": "source.port" , y: 0.259173 },
+		{ "label": "destination.port" , y: 0.242924 },
+		{ "label": "destination.bytes" , y: 0.147964 },
+		{ "label": "network.bytes" , y: 0.145812 },
+		{ "label": "source.bytes" , y: 0.133648 },
+		{ "label": "event.duration" , y: 0.070481 },
+		{ "label": "network.transport" , y: 0.000000 }
+	]
+    }]
+});
+
+chart.render();
+
+</script>
+<br>
+<br>
+
+
+	</body>
+</html>
